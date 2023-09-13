@@ -7,11 +7,13 @@ function LoginPage() {
   return (
     <div>
       <h1>로그인</h1>
-      아이디<input />
-      비밀번호<input />
+      <p>아이디</p>
+      <input type='text' />
+      <p>비밀번호</p>
+      <input type='password' />
       <div>
         <button onClick={() => { navigate("/main"); }}>로그인</button>
-        <button onClick={() => { navigate("/join"); }}>회원가입ㄱㄱ</button>
+        <button onClick={() => { navigate("/join"); }}>회원가입</button>
       </div>
     </div>
   )
